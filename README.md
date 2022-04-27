@@ -10,4 +10,4 @@ cd ROS_Workspace
 ./menu.sh
 ```
 
-![terminal](https://github.com/Giovane-F-Moreira/Shell_Script/blob/main/terminal.gif)
+![terminal](https://github.com/Giovane-F-Moreira/Shell_Script/blob/main/Essencials.gif)
