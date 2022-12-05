@@ -16,11 +16,9 @@ echo $1 | dialog --gauge 'Wait...' 0 0 0
 INSTA 0
 sleep 1
 
-INSTA 13
-sudo apt install flatpak -y
-
 INSTA 63
-flatpak install flathub org.gabmus.hydrapaper -y
+flatpak install --user https://flathub.org/repo/appstream/org.gabmus.hydrapaper.flatpakref
+flatpak --user update org.gabmus.hydrapaper
 
 INSTA 100
 sleep 1
